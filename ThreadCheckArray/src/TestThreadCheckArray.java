@@ -19,7 +19,7 @@ public class TestThreadCheckArray {
 			
 			thread1 = new Thread(new ThreadCheckArray(sd), "thread1");
 			thread2 = new Thread(new ThreadCheckArray(sd), "thread2");
-			thread1.start();
+			thread1.start()  ;
 			thread2.start();
 			try 
 			{
